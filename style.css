@@ -1,0 +1,13 @@
+:root { --paper:#EEF1F6; --plate:#FFFFFF; --ink:#141E46; --soft:#505A85; --rule:#D5DAE7; }
+@media (prefers-color-scheme: dark) { :root { --paper:#0F1730; --plate:#1B2547; --ink:#F2F4FA; --soft:#B1BADA; --rule:#323E68; } }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--paper); color:var(--ink); font:17px/1.65 "Avenir Next",-apple-system,"Hiragino Sans",sans-serif; }
+main { max-width:680px; margin:0 auto; padding:48px 20px 72px; }
+h1 { font-size:34px; line-height:1.2; margin:0 0 12px; }
+h2 { font-size:21px; margin:36px 0 8px; }
+p, li { color:var(--ink); }
+.lead, .meta { color:var(--soft); }
+.lines { height:40px; margin:24px 0 32px; border-radius:6px; background:linear-gradient(#C85500 0 12.5%,#1B8146 0 25%,#C9206A 0 37.5%,#0B6BBF 0 50%,#8A5A2B 0 62.5%,#6D3FC4 0 75%,#00808A 0 87.5%,#2B3A8C 0); }
+a { color:inherit; font-weight:600; }
+nav { margin-top:44px; padding-top:18px; border-top:1px solid var(--rule); }
+nav a { margin-right:18px; }
